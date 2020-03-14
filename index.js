@@ -57,3 +57,8 @@ deletreo("mandarinas");
 
 //ejercicio 5
 
+function miles_separador(numero) {
+    console.log(numero.toLocaleString());
+}
+
+miles_separador(5456.6);
